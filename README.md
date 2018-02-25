@@ -1,11 +1,14 @@
 # Home Page Development
 
 ## What are startpages?
-Startpages are locally hosted HTML documents that serve as a home page or new tab for your web browser. They generally contain a collection of links to frequently visited sites as the main element as well as search bars, clocks, calenders or other emebedded items that help productivity or look aesthetically pleasing.
+Startpages are locally hosted webpages that serve as a home page or new tab for your web browser. They generally contain a collection of links to frequently visited sites as the main element as well as search bars, clocks, calenders or other emebedded items that help productivity or look aesthetically pleasing.
 
 ## What browser should I use?
 Firefox as you can theme Firefox using Stylish and find themes on the Firefox tag of Userstyles. Firefox also makes adding a homepage easy.
 Otherwise if you won't upgrade there's always Chrome, you can perform minimal customization using Chrome Theme Maker. Lately Vivaldi has gained some market share for browser ricers as you can add custom CSS to it.
+
+## What files are hosted on the repository?
+This repo is just another place to host a startpage for people to take and modify for their own purposes, this is my personal startpage with the exception of schedule.png which will not be added so just use your imagination.
 
 ## Relevant Links
 * [FAQ](http://pastebin.com/PdPrW5aP)
