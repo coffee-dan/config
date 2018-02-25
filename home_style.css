@@ -1,0 +1,31 @@
+/* CSS Document for personal homepage */
+
+body {
+	background-image: url("img/grey-outer-clouds.png");
+	background-color: #1C1517;
+	font-family: Garamond;
+	text-align: center;
+	color: white;
+}
+
+#link-catalog {
+	margin-right: auto;
+    margin-left: auto;
+	width: 480px;
+}
+
+#link-catalog th {
+    background-color: #1C1517;
+	border: 1px solid #ddd;
+	height: 75px;
+	font-size: 25px;
+}
+
+#link-catalog td {
+	height: 21px;
+	width: 100px;
+}
+
+#link {
+    color: white;
+}
