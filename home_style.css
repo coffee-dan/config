@@ -2,6 +2,7 @@
 
 body {
 	background-image: url("img/grey-outer-clouds.png");
+	background-position: 50% 0%;
 	background-color: #1C1517;
 	font-family: Garamond;
 	text-align: center;
