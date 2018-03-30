@@ -1,14 +1,17 @@
 # Home Page Development
 
 ## What are startpages?
-Startpages are locally hosted webpages that serve as a home page or new tab for your web browser. They generally contain a collection of links to frequently visited sites as the main element as well as search bars, clocks, calenders or other emebedded items that help productivity or look aesthetically pleasing.
+Startpages are locally hosted webpages that serve as a home page or new tab for your web browser. They generally contain a collection of links to frequently visited sites as the main element as well as search bars, clocks, calenders or other emebedded items that help productivity and/or look aesthetically pleasing.
+
+## Why should I use a startpage?
+The web browser is often the most important and most used programs for a computer user as it functions as a window to the Internet. Despite this very important role web browsers are typically not personalized despite the enormous number of possibilities to boost productivity and comfort while browsing the web, whether for work or entertainment. The startpage is one avenue by which a web user may personalize their experience and workflow while utilizing the Internet.
 
 ## What browser should I use?
 Firefox as you can theme Firefox using Stylish and find themes on the Firefox tag of Userstyles. Firefox also makes adding a homepage easy.
 Otherwise if you won't upgrade there's always Chrome, you can perform minimal customization using Chrome Theme Maker. Lately Vivaldi has gained some market share for browser ricers as you can add custom CSS to it.
 
 ## What files are hosted on the repository?
-This repo is just another place to host a startpage for people to take and modify for their own purposes, this is my personal startpage with the exception of schedule.png which will not be added so just use your imagination.
+This repository is just another place to host startpages for people to take and modify for personal use, the main startpage is my personal startpage. Typically startpages that are hosted here will be stripped of anything that could be seen as private information about the creator of the startpage.
 
 ### Collection of startpages for modification and use.
 * [Startpages hosted on Github](http://startpages.github.io/)
