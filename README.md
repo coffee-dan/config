@@ -10,10 +10,6 @@ Otherwise if you won't upgrade there's always Chrome, you can perform minimal cu
 ## What files are hosted on the repository?
 This repo is just another place to host a startpage for people to take and modify for their own purposes, this is my personal startpage with the exception of schedule.png which will not be added so just use your imagination.
 
-## Relevant Links
-* [FAQ](http://pastebin.com/PdPrW5aP)
-* [/wg/ startpage Discord link](https://discord.gg/ExAGgVR)
-
 ### Collection of startpages for modification and use.
 * [Startpages hosted on Github](http://startpages.github.io/)
 * [Chloe Chantelle Browser Rice Guide](http://chloechantelle.com/guide#BrowserRice)
@@ -40,5 +36,10 @@ This repo is just another place to host a startpage for people to take and modif
 * [Practical Typography](http://practicaltypography.com/)
 * [Type Wolf](https://www.typewolf.com/)
 
+### Relevant Links
+* [FAQ](http://pastebin.com/PdPrW5aP)
+* [/wg/ startpage Discord link](https://discord.gg/ExAGgVR)
+
 ## This info was largely ~~stolen~~ borrowed from a /html-css/ thread on /wg/
-* [Most recent /html-css/ thread](http://boards.4chan.org/wg/thread/7132897)
+* [Most recent /html-css/ thread](http://boards.4chan.org/wg/thread/7168222)
+* [Archived /html-css/ thread](http://boards.4chan.org/wg/thread/7132897)
