@@ -1,0 +1,66 @@
+/* CSS Style Sheet Document - CSS files are used to set some universal
+ * settings for HTML documents that can reference it in their code. */
+
+/* Modifiable settings explained here.
+ *
+ * “background-image: url(“images/a.png”);” - this pulls in an image that is stored 
+ * in the “images” folder stored with the parent “Home Page” folder. The image that 
+ * is displayed can be modified by changing the url to a different image file of any
+ * common image format. By default the image will be tiled.
+ *
+ * “background-color: #FFFFFF;” - Enter a hex color code here to change the 
+ * background color. This is unnecessary as there will be an image displaying,
+ * however it is good to set this incase the image does not load for some reason.
+ *
+ * “color: #FFFFFF;” - Enter a hex color code here to change the font color.
+ *
+ * “font-family: Helvetica;” - Enter the name of any font family that is installed
+ * on your computer that you want to use for your page. Typically you should try to
+ * only use fonts that are default on your machine to avoid issues with the font not
+ * being available.
+ *
+ *
+ * Lastly please note that these settings only apply to the body of the HTML document
+ * so if you want to edit the document later the HTML default settings may be used
+ * instead of what is here which may be undesirable. */
+
+body {
+  background-image: url("images/plant-friends.jpg");
+  background-position: 50% 0%; //first value is horizontal centering, second value is vertical centering
+  background-color: #EDE0CF;
+  font-family: The Bold Font;
+  text-align: center;
+  color: #A57D38;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+#link-catalog {
+	background-color: #EDE0CF;
+	margin-right: auto;
+    margin-left: auto;
+	width: 480px;
+}
+
+#link-catalog th {
+    background-color: #EDE0CF;
+	//border: 1px solid #5FCD8F;
+	height: 75px;
+	font-size: 40px;
+	font-family: Anders;
+	color: #1D3539;
+}
+
+#link-catalog td {
+	height: 21px;
+	width: 100px;
+	font-family: The Bold Font;
+	color: #A57D38;
+}
+
+#link {
+	color: #A57D38;
+}
+}
