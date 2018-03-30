@@ -7,7 +7,10 @@ Startpages are locally hosted HTML documents that are used as a home or new tab 
 The web browser is often the most important and most used programs for a computer user as it functions as a window to the Internet. Despite this very important role web browsers are typically not personalized despite the enormous number of possibilities to boost productivity and comfort while browsing the web, whether for work or entertainment. The startpage is one avenue by which a web user may personalize their experience and workflow while utilizing the Internet.
 
 #### Dan Startpage preview
-![alt text](https://github.com/coffee-dan/startpage/blob/master/dan/dan-startpage-preview.png "Dan startpage preview") 
+![alt text](https://github.com/coffee-dan/startpage/blob/master/dan/startpage-preview.png "Dan startpage preview")
+
+#### Dan Startpage preview
+![alt text](https://github.com/coffee-dan/startpage/blob/master/liz/startpage-preview.png "Liz startpage preview") 
 
 ## What browser should I use?
 Firefox as you can theme Firefox using Stylish and find themes on the Firefox tag of Userstyles. Firefox also makes adding a homepage easy.
