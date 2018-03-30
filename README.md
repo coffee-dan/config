@@ -1,7 +1,7 @@
 # Startpage Development
 
 ## What are startpages?
-Home pages, or startpages, are locally hosted webpages that serve as a home page or new tab for your browser. Generally, contain a collection of links to frequently visited sites as the main element as well as search bars, clocks, calendars or other imbedded items that help productivity and/or look aesthetically pleasing.
+Startpages are locally hosted HTML documents that are used as a home or new tab page for your browser. Generally they contain a collection of links to frequently visited websites as the main element along with search bars, clocks, calendars or other imbedded items that improve productivity and/or are aesthetically pleasing.
 
 ## Why should I use a startpage?
 The web browser is often the most important and most used programs for a computer user as it functions as a window to the Internet. Despite this very important role web browsers are typically not personalized despite the enormous number of possibilities to boost productivity and comfort while browsing the web, whether for work or entertainment. The startpage is one avenue by which a web user may personalize their experience and workflow while utilizing the Internet.
