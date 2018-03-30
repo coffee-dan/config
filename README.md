@@ -6,10 +6,10 @@ Startpages are locally hosted HTML documents that are used as a home or new tab 
 ## Why should I use a startpage?
 The web browser is often the most important and most used programs for a computer user as it functions as a window to the Internet. Despite this very important role web browsers are typically not personalized despite the enormous number of possibilities to boost productivity and comfort while browsing the web, whether for work or entertainment. The startpage is one avenue by which a web user may personalize their experience and workflow while utilizing the Internet.
 
-#### Dan Startpage preview
+#### Dan Startpage
 ![alt text](https://github.com/coffee-dan/startpage/blob/master/dan/startpage-preview.png "Dan startpage preview")
 
-#### Dan Startpage preview
+#### Liz Startpage
 ![alt text](https://github.com/coffee-dan/startpage/blob/master/liz/startpage-preview.png "Liz startpage preview") 
 
 ## What browser should I use?
@@ -25,27 +25,27 @@ This repository is just another place to host startpages for people to take and 
 * [Nanami Tan Windows 7 Ricing Reference](http://nanami-tan.info/#HTMLPage)
 * [Pastebin with "Lots of Homepages"](http://pastebin.com/ZJvDn0eN)
 
-### HTML, CSS & JS
+### Technical Help
+#### HTML, CSS & JS Tutorials
 * [W3Schools - HTML](http://www.w3schools.com/html/default.asp)
 * [W3Schools - CSS](http://www.w3schools.com/css/default.asp)
 * [W3Schools - JS](http://www.w3schools.com/js/default.asp)
 * [Codecademy - Make a Website](https://www.codecademy.com/learn/make-a-website)
 * [Codecademy - JS](https://www.codecademy.com/learn/javascript)
 
-### Colors Related Links
+### Art Links
+#### Background Tools
 * [Palette Generator](http://palettegenerator.com/)
 * [Web Gradients](https://webgradients.com/)
 * [Gradient Animator](https://www.gradient-animator.com/)
-
-### Colors Converter
+#### Color code Converters
 * [RGB to HEX](http://www.javascripter.net/faq/rgbtohex.htm)
 * [HEX to RGB](http://www.javascripter.net/faq/hextorgb.htm)
-
-### Typography Related Links
+#### Typography Links
 * [Practical Typography](http://practicaltypography.com/)
 * [Type Wolf](https://www.typewolf.com/)
 
-### Relevant Links
+### Misc. Relevant Links
 * [FAQ](http://pastebin.com/PdPrW5aP)
 * [/wg/ startpage Discord link](https://discord.gg/ExAGgVR)
 
