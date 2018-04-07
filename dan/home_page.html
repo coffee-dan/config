@@ -1,24 +1,28 @@
+<!--Template created by Daniel Gerard Ramirez
+home_page.html code expects images to be stored in folder "img" and expects a home_style.css file to be present.
+-->
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="home_style.css">
-		<link rel="icon" href="img/h_icon.png">
+		<link rel="icon" href="img/h_icon.png"> <!--Favicon image, must but 16x16 or 32x32 PNG that uses 8-bit or 24-bit colors-->
 	</head>
 	<body>
 		<h1>A Home Page</h1>
 		<table id="link-catalog">
-		  <tr>
-			<th>Personal</th>
-			<th>General</th>
-			<th>Academic</th>
+		  <tr> <!--Titles for the three link categories-->
+			<th>Personal</th> <!--Column 1-->
+			<th>General</th> <!--Column 2-->
+			<th>Academic</th> <!--Column 3-->
 		  </tr>
-		  <tr>
+		  <tr> <!--First row of links in order of Column 1, Column 2, Column 3-->
 			<td><a id="link" href="https://github.com/" target="_blank">GitHub</a></td>
 			<td><a id="link" href="https://www.overleaf.com/dash" target="_blank">Overleaf</a></td>
 			<td><a id="link" href="https://elearn.uta.edu/webapps/login/" target="_blank">Blackboard</a></td>
 		  </tr>
-		  <tr>
+		  <tr> <!--All other rows follow the pattern established above-->
 			<td><a id="link" href="https://html-cleaner.com/" target="_blank">HTML Cleaner</a></td>
 			<td><a id="link" href="https://mg.mail.yahoo.com/neo/launch?.rand=fjd1d4b623579" target="_blank">Yahoo Email</a></td>
 			<td><a id="link" href="https://outlook.office365.com/owa/?realm=mavs.uta.edu&amp;exsvurl=1&amp;ll-cc=1033&amp;modurl=0" target="_blank">University Email</a></td>
@@ -63,6 +67,13 @@
 			<td></td>
 			<td><a id="link" href="https://github.com/Lhardin491/team-4" target="_blank">Team 4 Repo</a></td>
 		  </tr>
+		  <!--Use this as a template for adding a new row of links to the table. 
+		  <tr>
+			<td><a id="link" href="https://website.com/" target="_blank">Link Title</td>
+			<td></td>
+			<td></td>
+		  </tr>
+		  target="_blank" makes the link open in a new tab, do not include if you do not want this behavior-->
 		</table>
 		<img src="img/mailput.gif" alt="fatal error">
 	</body>
