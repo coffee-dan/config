@@ -1,0 +1,41 @@
+<!--Template created by Daniel Gerard Ramirez
+home_page.html code expects images to be stored in folder "img", documents in "doc" and a home_style.css file to be present.
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="home_style.css">
+		<link rel="icon" href="img/h_icon.png"> <!--Favicon image, must but 16x16 or 32x32 PNG that uses 8-bit or 24-bit colors-->
+	</head>
+	<body>
+		<h1>How I Will Eat</h1>
+		<table id="link-catalog">
+		  <tr> <!--Titles for the three link categories-->
+			<th>Food Places</th> <!--Column 1-->
+			<th>Account Balances</th> <!--Column 2-->
+			<th>Documents</th> <!--Column 3-->
+		  </tr>
+		  <tr> <!--First row of links in order of Column 1, Column 2, Column 3-->
+			<td><a id="link" href="https://www.dineoncampus.com/utarlington/" target="_blank">Dining On Campus</a></td>
+			<td><a id="link" href="https://www.uta.edu/campus-ops/mavexpress/mavmoney.php" target="_blank">University Funds</a></td>
+			<td><a id="link" href="doc/Food Money Sp18.xlsx" target="_blank">Fund Tabulations</a></td>
+		  </tr>
+		  <tr> <!--All other rows follow the pattern established above-->
+			<td></td>
+			<td></td>
+			<td></td>
+		  </tr>
+		  
+		  <!--Use this as a template for adding a new row of links to the table. 
+		  <tr>
+			<td><a id="link" href="https://website.com/" target="_blank">Link Title</td>
+			<td></td>
+			<td></td>
+		  </tr>
+		  target="_blank" makes the link open in a new tab, do not include if you do not want this behavior-->
+		</table>
+		<img src="img/accounting.gif" alt="blame coffee-dan">
+	</body>
+</html>
