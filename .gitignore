@@ -1,0 +1,10 @@
+# Files with personal information
+dan/img/schedule.png
+dan/doc/Food\ Money\ Sp18.xlsx
+
+# Startpages not cleared for repository display
+lydia/
+
+# OS generated files (preemptive)
+.DS_Store
+.DS_Store?
