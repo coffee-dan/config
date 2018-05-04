@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" href="img/icon.png">
+	</head>
+	<body class="scanlines">
+		<div id="link-catalog">
+			<p>[ root@localhost ~]# ./startpage</p>
+			<table>
+				<tr>
+					<td>Startpage 1.5.7 | Luke Hardin |&nbsp;</td>
+					<td id="date"></td>
+				</tr>
+			</table>
+			<script>
+				n =  new Date();
+				y = n.getFullYear();
+				m = n.getMonth() + 1;
+				d = n.getDate();
+				document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+			</script>
+			<p>> list personal</P>
+			<table>
+				<tr>
+					<td><a id="link" href="https://reddit.com">reddit</a></td>
+					<td><a id="link" href="https://4chan.org/g/">/g/</a></td>
+					<td><a id="link" href="https://4chan.org/mu/">/mu/</a></td>
+					<td><a id="link" href="https://4chan.org/v/">/v/</a></td>
+				</tr>
+				<tr>
+					<td><a id="link" href="https://www.youtube.com/">youtube</a></td>
+				</tr>
+			</table>
+			<p>> list academic</p>
+			<table>
+				<tr>
+					<td><a id="link" href="https://elearn.uta.edu/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_50_1">blackboard</a></td>
+					<td><a id="link" href="https://www.uta.edu/mymav/?tab=PAPP_GUEST">my_mav</a></td>
+					<td><a id="link" href="https://outlook.office.com/owa/">univ_email</a></td>
+				</tr>
+			</table>
+			<p>> list general</p>
+			<table>
+				<tr>
+					<td><a id="link" href="https://github.com/">github</a></td>
+					<td><a id="link" href="https://mail.google.com/">gmail</a></td>
+					<td><a id="link" href="https://mail.protonmail.com/">proton_mail</a></td>
+				</tr>
+			</table>
+			<p>> list reference</p>
+			<table>
+				<tr>
+					<td><a id="link" href="https://git-scm.com/doc">git</a></td>
+					<td><a id="link" href="http://devdocs.io/cpp/">c++</a></td>
+					<td><a id="link" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#html">markdown_cheatsheet</a></td>
+				</tr>
+			</table>
+			<p>> ^C</P>
+			<p>exiting...</p>
+			<div class="text">[ root@localhost ~]# </div>
+		</div>
+	</body>
+</html>
