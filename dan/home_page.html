@@ -1,80 +1,106 @@
 <!--Template created by Daniel Gerard Ramirez
 home_page.html code expects images to be stored in folder "img", documents in "doc" and a home_style.css file to be present.
+
+Weather information retrieval method and general <div> structure were taken from https://github.com/Jaredk3nt/homepage
 -->
 
 <!DOCTYPE html>
+<html lang="en">
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		
+		<title>Home</title>
 		<link rel="stylesheet" type="text/css" href="home_style.css">
-		<link rel="icon" href="img/h_icon.png"> <!--Favicon image, must but 16x16 or 32x32 PNG that uses 8-bit or 24-bit colors-->
+		<link rel="icon" type="image/x-icon" href="img/h_icon.png"> <!--Favicon image, must but 16x16 or 32x32 PNG that uses 8-bit or 24-bit colors-->
 	</head>
 	<body>
 		<h1>A Home Page</h1>
-		<table id="link-catalog">
-		  <tr> <!--Titles for the three link categories-->
-			<th>Personal</th> <!--Column 1 : Inherently unproductive-->
-			<th>General</th> <!--Column 2 : Potentially productive-->
-			<th>Academic</th> <!--Column 3 : Academically productive-->
-		  </tr>
-		  <tr> <!--First row of links in order of Column 1, Column 2, Column 3-->
-			<td><a id="link" href="http://www.censoredlist.com/" target="_blank">Censored List</a></td>
-			<td><a id="link" href="https://github.com/" target="_blank">GitHub</a></td>
-			<td><a id="link" href="https://elearn.uta.edu/webapps/login/" target="_blank">Blackboard</a></td>
-		  </tr>
-		  <tr> <!--All other rows follow the pattern established above-->
-			<td><a id="link" href="https://html-cleaner.com/" target="_blank">HTML Cleaner</a></td>
-			<td><a id="link" href="https://www.overleaf.com/dash" target="_blank">Overleaf</a></td>
-			<td><a id="link" href="https://outlook.office365.com/owa/?realm=mavs.uta.edu&amp;exsvurl=1&amp;ll-cc=1033&amp;modurl=0" target="_blank">University Email</a></td>
-		  </tr>
-		  <tr>
-			<td><a id="link" href="https://neocities.org/" target="_blank">Neocities</a></td>
-			<td><a id="link" href="https://mg.mail.yahoo.com/neo/launch?.rand=fjd1d4b623579" target="_blank">Yahoo Email</a></td>
-			<td><a id="link" href="https://www.uta.edu/mymav/" target="_blank">My Mav</a></td>
-		  </tr>
-		  <tr>
-			<td><a id="link" href="https://www.neverendingchartrendering.org/" target="_blank">Topsters 2</a></td>
-			<td><a id="link" href="https://mail.protonmail.com/login" target="_blank">Proton Mail</a></td>
-			<td><a id="link" href="http://vlm1.uta.edu/~alex/courses/2320/2320_001.html" target="_blank">Algorithms</a></td>
-		  </tr>
-		  <tr>
-			<td><a id="link" href="http://geosoft.no/development/cppstyle.html" target="_blank">C++ Style Guide</a></td>
-			<td><a id="link" href="http://rbt.asia/mu/" target="_blank">Music Archive</a></td>
-			<td><a id="link" href="https://www.aleks.com/" target="_blank">ALEKS</a></td>
-		  </tr>
-		  <tr>
-			<td><a id="link" href="https://plato.stanford.edu/entries/lambda-calculus/" target="_blank">Lambda Calculus</a></td>
-			<td><a id="link" href="https://www.youtube.com/" target="_blank">Youtube</a></td>
-			<td><a id="link" href="https://ptable.com/" target="_blank">Periodic Table</a></td>
-		  </tr>
-		  <tr>
-			<td><a id="link" href="https://art.vniz.net/en/beksinski/16index.html" target="_blank">Beksinki</a></td>
-			<td><a id="link" href="https://www.reuters.com/news/technology" target="_blank">Reuters Tech</a></td>
-			<td><a id="link" href="home_schedule.html">Schedule</a></td>
-		  </tr>
-		  <tr>
-			<td><a id="link" href="http://boards.4chan.org/mu/catalog" target="_blank">/mu/</a></td>
-			<td><a id="link" href="https://trello.com/" target="_blank">Trello</a></td>
-			<td><a id="link" href="https://github.com/Lhardin491/team-4" target="_blank">Team 4 Repo</a></td>
-		  </tr>
-		  <tr>
-			<td><a id="link" href="http://boards.4chan.org/g/catalog" target="_blank">/g/</a></td>
-			<td><a id="link" href="home_food_calc.html">Food</a></td>
-			<td></td>
-		  </tr>
-		  <tr>
-			<td></td>
-			<td></td>
-			<td></td>
-		  </tr>
-		  <!--Use this as a template for adding a new row of links to the table. 
-		  <tr>
-			<td><a id="link" href="https://website.com/" target="_blank">Link Title</td>
-			<td></td>
-			<td></td>
-		  </tr>
-		  target="_blank" makes the link open in a new tab, do not include if you do not want this behavior-->
-		</table>
+		<div class="container">
+			<div class="weather-container">
+				<div class="row">
+					<div id="weather-description"class="inline"></div>
+					<div class="inline">-</div>
+					<div id="temp" class="inline"></div>
+				</div>
+			</div>
+			<div class="catalog-container">
+				<div class="catalog">
+					<div class="catalog-title">Personal</div>
+					<div class="catalog-list">
+						<a class="link" href="http://www.censoredlist.com/" target="_blank">Censored List</a>
+						<a class="link" href="https://html-cleaner.com/" target="_blank">HTML Cleaner</a>
+						<a class="link" href="https://neocities.org/" target="_blank">Neocities</a>
+						<a class="link" href="https://www.neverendingchartrendering.org/" target="_blank">Topsters 2</a>
+						<a class="link" href="http://geosoft.no/development/cppstyle.html" target="_blank">C++ Style Guide</a>
+						<a class="link" href="https://plato.stanford.edu/entries/lambda-calculus/" target="_blank">Lambda Calculus</a>
+						<a class="link" href="https://art.vniz.net/en/beksinski/16index.html" target="_blank">Beksinki</a>
+						<a class="link" href="http://boards.4chan.org/mu/catalog" target="_blank">/mu/</a>
+						<a class="link" href="http://boards.4chan.org/g/catalog" target="_blank">/g/</a>
+					</div>
+				</div>
+				<div class="catalog">
+					<div class="catalog-title">General</div>
+					<div class="catalog-list">
+						<a class="link" href="https://youtube.com" target="_blank">Youtube</a>
+						<a class="link" href="https://github.com/" target="_blank">GitHub</a>
+						<a class="link" href="https://www.overleaf.com/dash" target="_blank">Overleaf</a>
+						<a class="link" href="https://mg.mail.yahoo.com/neo/launch?.rand=fjd1d4b623579" target="_blank">Yahoo Email</a>
+						<a class="link" href="https://mail.protonmail.com/login" target="_blank">Proton Mail</a>
+						<a class="link" href="http://rbt.asia/mu/" target="_blank">Music Archive</a>
+						<a class="link" href="https://www.youtube.com/" target="_blank">Youtube</a>
+						<a class="link" href="https://www.reuters.com/news/technology" target="_blank">Reuters Tech</a>
+						<a class="link" href="https://trello.com/" target="_blank">Trello</a>
+						<a class="link" href="home_food_calc.html">Food</a>
+					</div>
+				</div>
+				<div class="catalog">
+					<div class="catalog-title">Academic</div>
+					<div class="catalog-list">
+						<a class="link" href="https://elearn.uta.edu/webapps/login/" target="_blank">Blackboard</a>
+						<a class="link" href="https://outlook.office365.com/owa/?realm=mavs.uta.edu" target="_blank">University Email</a>
+						<a class="link" href="https://www.uta.edu/mymav/" target="_blank">My Mav</a>
+						<a class="link" href="http://vlm1.uta.edu/~alex/courses/2320/2320_001.html" target="_blank">Algorithms</a>
+						<a class="link" href="https://www.aleks.com/" target="_blank">ALEKS</a>
+						<a class="link" href="https://ptable.com/" target="_blank">Periodic Table</a>
+						<a class="link" href="home_schedule.html">Schedule</a>
+						<a class="link" href="https://github.com/Lhardin491/team-4" target="_blank">Team 4 Repo</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Use this as a template for adding a new column of links to the table.
+		
+		<div class="catalog">
+			<div class="catalog-title">Section Name</div>
+			<div class="catalog-list">
+				<a class="link" href="https://website.com/" target="_blank">Link Name</a>
+			</div>
+		</div>	
+		
+		target="_blank" makes the link open in a new tab, do not include if you do not want this behavior-->
 		<img src="img/mailput.gif" alt="fatal error">
+		<script>
+			window.onload = () => {
+				let xhr = new XMLHttpRequest();
+				// Request to open weather map
+				xhr.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?id=4671240&units=imperial&appid=bb617c8eebae0d1c79c479dd6ad0aab3');
+				xhr.onload = () => {
+					if (xhr.readyState === 4) {
+						if (xhr.status === 200) {
+							let json = JSON.parse(xhr.responseText);
+							console.log(json);
+							document.getElementById("temp").innerHTML = json.main.temp.toFixed(0) + " F";
+							document.getElementById("weather-description").innerHTML = json.weather[0].description;
+						} else {
+							console.log('error msg: ' + xhr.status);
+						}
+					}
+				}
+				xhr.send();
+			}
+		</script>
 	</body>
 </html>
