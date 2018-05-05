@@ -17,7 +17,7 @@ Weather information retrieval method and general <div> structure were taken from
 		<link rel="icon" type="image/x-icon" href="img/h_icon.png"> <!--Favicon image, must but 16x16 or 32x32 PNG that uses 8-bit or 24-bit colors-->
 	</head>
 	<body>
-		<h1>A Home Page</h1>
+		<h1>Home</h1>
 		<div class="container">
 			<div class="weather-container">
 				<div class="row">
@@ -86,8 +86,6 @@ Weather information retrieval method and general <div> structure were taken from
 			window.onload = () => {
 				let xhr = new XMLHttpRequest();
 				// Request to open weather map
-				// http://api.openweathermap.org/data/2.5/weather?id=4737316&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece
-				// http://api.openweathermap.org/data/2.5/weather?id=4671240&units=imperial&appid=bb617c8eebae0d1c79c479dd6ad0aab3
 				xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=4671240&units=imperial&appid=bb617c8eebae0d1c79c479dd6ad0aab3');
 				xhr.onload = () => {
 					if (xhr.readyState === 4) {
