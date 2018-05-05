@@ -32,7 +32,32 @@ body {
   color: #fff;
 }
 
-.text { 
+span {
+    margin-left: -50px;
+    border: solid 1px black;
+    color: transparent;
+    text-shadow: 0 0 0 #00ed00;
+}
+
+span:focus{
+  outline: none;
+}
+
+input{
+  margin-left: -50px;
+  margin-right: -5px;
+  display: inline-block;
+  font-family: Courier, monospace;
+  line-height: 25px;
+  font-size: 25px;
+  border: solid 1px black;
+  color: transparent;
+  text-shadow: 0 0 0 #00ed00;
+  background: transparent;
+}
+
+.input::before{
+  content: '[ root@localhost ~]#';
   position: relative;
   display: inline-block;
   line-height: 25px;
@@ -41,10 +66,17 @@ body {
   min-width: 360px;
 }
 
-.text::after {
+.input { 
+  display: inline-block;
+  line-height: 25px;
+  font-size: 25px;
+  color: #00ed00;
+}
+
+.input::after {
   content: "";
   top: 0;
-  right: -15px;
+  right: -50px;
   display: inline-block;
   background-color: #00ed00;
   vertical-align: top;
