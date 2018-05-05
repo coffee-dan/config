@@ -32,17 +32,7 @@ body {
   color: #fff;
 }
 
-span {
-    margin-left: -50px;
-    border: solid 1px black;
-    color: transparent;
-    text-shadow: 0 0 0 #00ed00;
-}
-
-span:focus{
-  outline: none;
-}
-
+/* search bar */
 input{
   margin-left: -50px;
   margin-right: -5px;
@@ -100,7 +90,7 @@ input{
 
 /* Scanlines */
 /* Credit Mehdi fromCodePen */
-/* https://codepen.io/meduzen/# */
+/* https://codepen.io/meduzen/ */
 /* CSS .scanlines CLASS */
 .scanlines {
   position: relative;
