@@ -13,7 +13,7 @@ Weather information retrieval method and general <div> structure were taken from
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		
 		<title>Home</title>
-		<link rel="stylesheet" type="text/css" href="home_style.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="icon" type="image/x-icon" href="img/h_icon.png"> <!--Favicon image, must but 16x16 or 32x32 PNG that uses 8-bit or 24-bit colors-->
 	</head>
 	<body>
@@ -53,7 +53,7 @@ Weather information retrieval method and general <div> structure were taken from
 						<a class="link" href="https://www.youtube.com/" target="_blank">Youtube</a>
 						<a class="link" href="https://www.reuters.com/news/technology" target="_blank">Reuters Tech</a>
 						<a class="link" href="https://trello.com/" target="_blank">Trello</a>
-						<a class="link" href="home_food_calc.html">Food</a>
+						<a class="link" href="food.html">Food</a>
 					</div>
 				</div>
 				<div class="catalog">
@@ -65,7 +65,7 @@ Weather information retrieval method and general <div> structure were taken from
 						<a class="link" href="http://vlm1.uta.edu/~alex/courses/2320/2320_001.html" target="_blank">Algorithms</a>
 						<a class="link" href="https://www.aleks.com/" target="_blank">ALEKS</a>
 						<a class="link" href="https://ptable.com/" target="_blank">Periodic Table</a>
-						<a class="link" href="home_schedule.html">Schedule</a>
+						<a class="link" href="schedule.html">Schedule</a>
 						<a class="link" href="https://github.com/Lhardin491/team-4" target="_blank">Team 4 Repo</a>
 					</div>
 				</div>
@@ -86,7 +86,9 @@ Weather information retrieval method and general <div> structure were taken from
 			window.onload = () => {
 				let xhr = new XMLHttpRequest();
 				// Request to open weather map
-				xhr.open('GET', 'http://api.openweathermap.org/data/2.5/forecast?id=4671240&units=imperial&appid=bb617c8eebae0d1c79c479dd6ad0aab3');
+				// http://api.openweathermap.org/data/2.5/weather?id=4737316&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece
+				// http://api.openweathermap.org/data/2.5/weather?id=4671240&units=imperial&appid=bb617c8eebae0d1c79c479dd6ad0aab3
+				xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=4671240&units=imperial&appid=bb617c8eebae0d1c79c479dd6ad0aab3');
 				xhr.onload = () => {
 					if (xhr.readyState === 4) {
 						if (xhr.status === 200) {
