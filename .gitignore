@@ -4,6 +4,13 @@ dan/doc/Food\ Money\ Sp18.xlsx
 
 # Startpages not cleared for repository display
 lydia/
+luke\ homepage-master/
+
+# Excessively large files
+city-weather-information
+city.list.json
+city.list.json.gz
+city.txt
 
 # OS generated files (preemptive)
 .DS_Store
