@@ -1,40 +1,41 @@
 /* CSS Document for personal homepage */
 
 body {
-	background-image: url("img/stars-and-mountains.png");
-	background-position: 50% 0%;
-	background-color: #1C1517;
-	font-family: Garamond;
-	text-align: center;
-	color: white;
+  background-image: url("img/stars-and-mountains.png");
+  background-position: 50% 0%;
+  background-color: #1C1517;
+  font-family: Garamond;
+  text-align: center;
+  color: white;
 }
 
 .container {
-    width: 100%;
-	
-	align-items: center;
-    justify-content: center;
-    display: flex;
-	flex-direction: column;
+  width: 100%;
+  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.h-divider{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	width: 100%;
-	height: 1px;
+.h-divider {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 1px;
 }
 
 .weather-container {
-    width: 400px;
-    background-color: #1C1517;
-	border: 1px solid #ddd;
-    padding: 8px 8px;
-    color: white;
-    text-align: center;
+  width: 400px;
+  background-color: #1C1517;
+  border: 1px solid #ddd;
+  padding: 8px 8px;
+  color: white;
+  text-align: center;
 }
+
 .inline {
-    display: inline-block;
+  display: inline-block;
 }
 /*﻿
 =======================================================================
@@ -44,7 +45,7 @@ This formatting system is used as the traditional logic for tables
 	in HTML is not suitible for constant updates due to the central 
 	unit of organization being rows instead of columns. Therefore the
 	catalog and catalog container system focuses on columns such that
-	categorizing links are made easy.
+	categorizing links is made easy.
 @Catalog container - A "table", not a literal HTMl table.
 @Catalog - A column within the "table" that has two elements related
 	to it, the catalog-title and catalog-list.
@@ -58,35 +59,39 @@ This formatting system is used as the traditional logic for tables
 	fundamental unit of the catalog.
 */
 .catalog-container {
-	width: 50%;
+  width: 50%;
     
-    justify-content: center;
-    margin: 1em 0em;
+  justify-content: center;
+  margin: 1em 0em;
 	
-	display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
-.catalog{
-    width: 165px;
+
+.catalog {
+  width: 165px;
 }
+
 .catalog-title {
-	background-color: #1C1517;
-	border: 1px solid #ddd;
+  background-color: #1C1517;
+  border: 1px solid #ddd;
+  
+  width: 160px;
+  height: 75px;
+  
+  display: flex;
+  justify-content: center; /* Horizontal alignment */
+  align-items: center; /* Vertical alignment */
 	
-	width: 160px;
-	height: 75px;
-	
-	display: flex;
-	justify-content: center; /* align horizontal */
-	align-items: center; /* align vertical */
-	
-	font-size: 25px;
-    font-weight: 600;
-    color: white;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
 }
+
 .catalog-list {
 	/*Only for organization*/
 }
+
 .link {
 	color: white;
     text-decoration: none;
@@ -98,7 +103,7 @@ This formatting system is used as the traditional logic for tables
 Navigation bar details
 =======================================================================
 The navigation bar is meant to only house links that take the user away
-	from index.html as all other links should keep within this "home"
+	from homepage.html as all other links should keep within this "home"
 	document while opening the desired link in a new tab.
 */
 .navbar {
