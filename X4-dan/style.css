@@ -16,26 +16,32 @@ body{background: #212121;}
     margin: auto;
     background: #fff;
     text-align: center;
-    background-image: url(src/3.jpg);
+    background-image: url(src/2.jpg);
     background-size: cover;
 }
 
 #primero{
     top: 0px;
-    left: -250px;
-    background-position: left;
+    left: -375px;
+    background-position: 0px;
 }
 
 #segundo{
     top: -500px;
-    left: 0px;
+    left: -125px;
     background-position: -250px;
 }
 
 #tercero{
     top: -1000px;
-    left: 250px;
+    left: 125px;
     background-position: -500px;
+}
+
+#cuarto{
+	top: -1500px;
+	left: 375px;
+	background-position: -750px;
 }
 
 .nombre{
