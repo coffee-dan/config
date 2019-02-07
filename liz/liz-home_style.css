@@ -25,8 +25,8 @@
  * instead of what is here which may be undesirable. */
 
 body {
-  background-image: url("images/plant-friends.jpg");
-  background-position: 50% 0%; //first value is horizontal centering, second value is vertical centering
+  background-image: url("img/plant-friends.jpg");
+  background-position: 50% 0%; /*first value is horizontal centering, second value is vertical centering*/
   background-color: #EDE0CF;
   font-family: The Bold Font;
   text-align: center;
@@ -39,6 +39,7 @@ h1 {
 
 #link-catalog {
 	background-color: #EDE0CF;
+	opacity: 0.5;
 	margin-right: auto;
     margin-left: auto;
 	width: 480px;
@@ -61,6 +62,7 @@ h1 {
 }
 
 #link {
+	opacity: 1;
 	color: #A57D38;
 }
 }
