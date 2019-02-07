@@ -1,37 +1,33 @@
 <!--Template created by Daniel Gerard Ramirez
 
-*.html and *.css files must be in the same folder as index.html
+*.html, *.css and *.js files must be in the same folder as index.html
 image files must be in a folder named "img"
 other non-html or css files must be in folder named "doc"
+
+Weather information retrieval method and general <div> structure were taken from https://github.com/Jaredk3nt/homepage
 -->
 
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		
-		<title>Schedule</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="icon" type="image/x-icon" href="img/h_icon.png">
-	</head>
-	<body>
-		<div class="navbar">
-				<a class="active" href="schedule.html">Schedule</a>
-				<a href="reference.html">Reference</a>
-				<a href="accounting.html">Accounting</a>
-				
-				<div class="navbar-center">
-					<a href="homepage.html">Home</a>
-				</div>
-				
-				<div class="navbar-right">
-					<a href="notes.html">Notes</a>
-					<a href="about.html">About</a>
-				</div>
-		</div>
-		<img src="img/schedule.png" alt="Spring 2018 Schedule">
-		<img src="img/bookstore_weekly.png" alt="Bookstore Weekly">
-	</body>
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Schedule</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/x-icon" href="img/h_icon.png">
+</head>
+
+<div class="navbar">
+	<a class="active" href="schedule.html">Schedule</a>
+	<a href="reference.html">Reference</a>
+	<a href="accounting.html">Accounting</a>
+	
+	<div class="navbar-center">
+		<a href="index.html">Home</a>
 	</div>
-  
-</html>
+	
+	<div class="navbar-right">
+		<a href="notes.html">Notes</a>
+		<a href="about.html">About</a>
+	</div>
+</div>
+<img src="img/schedule.png" alt="Spring 2018 Schedule">
+<img src="img/bookstore_weekly.png" alt="Bookstore Weekly">

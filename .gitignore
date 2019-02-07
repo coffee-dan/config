@@ -2,10 +2,15 @@
 dan/img/schedule.png
 dan/img/bookstore_weekly.png
 dan/doc/Food\ Money\ Sp18.xlsx
+dan/lewd.html
+
+# Files that exist purely for testing
+dan/sed-testing.html
 
 # Startpages not cleared for repository display
 lydia/
 luke\ homepage-master/
+adam/
 
 # Excessively large files
 city-weather-information
