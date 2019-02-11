@@ -1,134 +1,140 @@
 <!--Template created by Daniel Gerard Ramirez
 
-*.html and *.css files must be in the same folder as homepage.html
+*.html, *.css and *.js files must be in the same folder as index.html
 image files must be in a folder named "img"
 other non-html or css files must be in folder named "doc"
+
+Weather information retrieval method and general <div> structure were taken from https://github.com/Jaredk3nt/homepage
 -->
 
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
+<head>
+	<meta charset="UTF-8">
 
-		<title>Reference</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="icon" type="image/x-icon" href="img/h_icon.png">
-	</head>
-	<body>
-		<div class="navbar">
-			<a href="schedule.html">Schedule</a>
-			<a class="active" href="reference.html">Reference</a>
-			<a href="accounting.html">Accounting</a>
-			
-			<div class="navbar-center">
-				<a href="index.html">Home</a>
-			</div>
-			
-			<div class="navbar-right">
-				<a href="notes.html">Notes</a>
-				<a href="about.html">About</a>
+	<title>Reference</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/x-icon" href="img/h_icon.png">
+</head>
+
+<div class="navbar">
+	<a href="schedule.html">Schedule</a>
+	<a class="active" href="reference.html">Reference</a>
+	<a href="accounting.html">Accounting</a>
+	
+	<div class="navbar-center">
+		<a href="index.html">Home</a>
+	</div>
+	
+	<div class="navbar-right">
+		<a href="notes.html">Notes</a>
+		<a href="about.html">About</a>
+	</div>
+</div>
+
+<div class="container">
+
+	<div class="catalog-container">
+		<div class="catalog">
+			<div class="catalog-title">Art</div>
+			<div class="catalog-list">
+				<a href="https://arthistoryproject.com/artists/gustave-dore/the-inferno-canto-21/">Dore - The Inferno</a>
+				<a href="http://www.gutenberg.org/files/8710/8710-h/8710-h.htm">Dore - Bible Illustrations</a>
+				<a href="https://art.vniz.net/en/beksinski/16index.html">Beksinki</a>
+				<a href="http://www.outlookmaps.com/shop/texas-topographic-map">Topographic Maps</a>
+				<a href=""></a>
 			</div>
 		</div>
-		
-		<div class="container">
-		
-			<div class="catalog-container">
-				<div class="catalog">
-					<div class="catalog-title">Art</div>
-					<div class="catalog-list">
-						<a href="https://arthistoryproject.com/artists/gustave-dore/the-inferno-canto-21/">Dore - The Inferno</a>
-						<a href="http://www.gutenberg.org/files/8710/8710-h/8710-h.htm">Dore - Bible Illustrations</a>
-						<a href="https://art.vniz.net/en/beksinski/16index.html">Beksinki</a>
-						<a href="http://www.outlookmaps.com/shop/texas-topographic-map">Topographic Maps</a>
-						<a href=""></a>
-					</div>
-				</div>
-				<div class="catalog">
-					<!--What you get depends on what you put in-->
-					<div class="catalog-title">Resources</div>
-					<div class="catalog-list">
-						<a href="https://wiki.installgentoo.com/index.php/">InstallGentoo Wiki</a>
-						<a href="https://pokemondb.net/sprites">Pokemon Sprites</a>
-						<a href="http://steam.tools/backgrounds/#/">Steam Backgrounds</a>
-						<a href="https://drive.google.com/drive/folders/0B8ywa01FmhL4V3lkOFd0ZG9Genc">WorldTracker Library</a>
-						<a href="https://incompetech.com/graphpaper/polar">Graph Paper</a>
-						<a href="https://pastebin.com/7Syxr4rZ">/mu/ Pastebin 1</a>
-						<a href="https://pastebin.com/K9kFJPT6">/mu/ Pastebin 2</a>
-						<a href="https://www.dafont.com/">Fonts</a>
-						<a href="https://www.flaticon.com/">Icons</a>
-						<a href="https://ptable.com/">Periodic Table</a>
-						<a href="https://weboas.is/">Web Oasis</a>
-						<a href="https://www.worldobesitydata.org/map/overview-adults">Global Obesity Observations</a>
-						<a href=""></a>
-					</div>
-				</div>
-				<div class="catalog">
-					<!--Transformative applications-->
-					<div class="catalog-title">Tools</div>
-					<div class="catalog-list">
-						<a href="https://ezgif.com">GIF Editor</a>
-						<a href="https://online-audio-converter.com">Audio Converter</a>
-						<a href="https://color.adobe.com">Color Swatches</a>
-						<a href="http://www.throwawaymail.com">Temporary Email</a>
-						<a href="https://valkyrie.comodo.com">Security File Scan</a>
-						<a href="https://pudding.cool/2017/03/timeless/index.html">Music Graphs</a>
-						<a href="http://www.sigfigscalculator.com/">Significant Figures</a>
-						<a href="http://www.gingersoftware.com/grammarcheck">Grammar Check</a>
-						<a href="https://typing-speed-test.aoeu.eu/">Typing Speed Test</a>
-						<a href="https://www.fx-exchange.com/cad/usd-1-exchange-rates.html">CAD to USD</a>
-						<a href="https://www.binaryhexconverter.com/hex-to-decimal-converter">HEX to Decimal</a>
-						<a href="https://pokeassistant.com/main/ivcalculator">IV Calculator</a>
-						<a href="https://icolorpalette.com/color-palette-from-images/">Palette from Images</a>
-						<a href=""></a>
-					</div>
-				</div>
-				<div class="catalog">
-					<div class="catalog-title">Information</div>
-					<div class="catalog-list">
-						<a href="http://ascii-table.com/">ASCII Table</a>
-						<a href="http://www.javascripter.net/faq/colornam.htm">Color Names</a>
-						<a href="https://www.howtogeek.com/114518/47-keyboard-shortcuts-that-work-in-all-web-browsers/">Browser Shortcuts</a>
-						<a href="http://goldendict.org/dictionaries.php">GoldenDict</a>
-						<a href="https://plato.stanford.edu/entries/lambda-calculus/">Lambda Calculus</a>
-						<a href="https://www.programiz.com/c-programming/">C Reference</a>
-						<a href="http://tizag.com/cssT/">CSS Reference</a>
-						<a href="http://archive.bio.ed.ac.uk/jdeacon/desbiome/desbiome.htm">Geography Information</a>
-						<a href="https://pokemongo.gamepress.gg/">Pokemon GO Gamepress</a>
-						<a href="http://botw-recipes.com/">BOTW Recipes</a>
-						<a href=""></a>
-					</div>
-				</div>
-				<div class="catalog">
-					<div class="catalog-title">*nix</div>
-					<div class="catalog-list">
-						<a href="https://ss64.com/bash/">Bash Commands</a>
-						<a href="doc/vimqrc.pdf">VIM Quick Reference.pdf</a>
-						<a href="https://www.cyberciti.biz/faq/">Linux FAQ</a>
-						<a href="http://www.linfo.org/create_shell_1.html">Shell Scripts</a>
-						<a href="https://askubuntu.com/questions/145618/how-can-i-shorten-my-command-line-bash-prompt">Shorten Bash prompt</a>
-						<a href="https://www.networkworld.com/article/3269587/linux/customizing-your-text-colors-on-the-linux-command-line.html">Custom Bash text colors</a>
-						<a href="https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work">.bashrc discussion</a>
-						<a href="https://unix.stackexchange.com/questions/148/colorizing-your-terminal-and-shell-environment"> Colorizing shell env</a>
-						<a href=""></a>
-						<a href=""></a>
-					</div>
-				</div>
-				<div class="catalog">
-					<!--Source of information, news aggregators and more-->
-					<div class="catalog-title">Sources</div>
-					<div class="catalog-list">
-						<a class="emphatic" href="articles.html">Specific Articles</a>
-						<a href="https://www.theatlantic.com/">The Atlantic</a>
-						<a href="https://drudgereport.com/">Drudge Report</a>
-						<a href="https://www.theparisreview.org/">The Paris Review</a>
-						<a href="https://www.reuters.com/news/technology">Reuters Tech</a>
-						<a href="https://americacomesalive.com/">America Comes Alive</a>
-						<a href=""></a>
-					</div>
-				</div>
+		<div class="catalog">
+			<!--What you get depends on what you put in-->
+			<div class="catalog-title">Resources</div>
+			<div class="catalog-list">
+				<a href="https://wiki.installgentoo.com/index.php/">InstallGentoo Wiki</a>
+				<a href="https://pokemondb.net/sprites">Pokemon Sprites</a>
+				<a href="http://steam.tools/backgrounds/#/">Steam Backgrounds</a>
+				<a href="https://drive.google.com/drive/folders/0B8ywa01FmhL4V3lkOFd0ZG9Genc">WorldTracker Library</a>
+				<a href="https://pastebin.com/7Syxr4rZ">/mu/ Pastebin 1</a>
+				<a href="https://pastebin.com/K9kFJPT6">/mu/ Pastebin 2</a>
+				<a href="https://www.dafont.com/">Fonts</a>
+				<a href="https://www.flaticon.com/">Icons</a>
+				<a href="https://ptable.com/">Periodic Table</a>
+				<a href="https://weboas.is/">Web Oasis</a>
+				<a href="https://www.worldobesitydata.org/map/overview-adults">Global Obesity Observations</a>
+				<a href="http://gen.lib.rus.ec/">Library Genesis</a>
+				<a href=""></a>
 			</div>
-			
 		</div>
-		<img src="img/porygon.gif" alt="blame coffee-dan">
-	</body>
-</html>
+		<div class="catalog">
+			<!--Transformative applications-->
+			<div class="catalog-title">Tools</div>
+			<div class="catalog-list">
+				<a href="https://ezgif.com">GIF Editor</a>
+				<a href="https://online-audio-converter.com">Audio Converter</a>
+				<a href="https://color.adobe.com">Color Swatches</a>
+				<a href="http://www.throwawaymail.com">Temporary Email</a>
+				<a href="https://valkyrie.comodo.com">Security File Scan</a>
+				<a href="https://pudding.cool/2017/03/timeless/index.html">Music Graphs</a>
+				<a href="http://www.sigfigscalculator.com/">Significant Figures</a>
+				<a href="http://www.gingersoftware.com/grammarcheck">Grammar Check</a>
+				<a href="https://typing-speed-test.aoeu.eu/">Typing Speed Test</a>
+				<a href="https://www.fx-exchange.com/cad/usd-1-exchange-rates.html">CAD to USD</a>
+				<a href="https://www.binaryhexconverter.com/hex-to-decimal-converter">HEX to Decimal</a>
+				<a href="https://icolorpalette.com/color-palette-from-images/">Palette from Images</a>
+				<a href="https://hide.me/en/proxy">Web Proxy</a>
+				<a href="https://anydice.com/">Programable Dice</a>
+				<a href=""></a>
+			</div>
+		</div>
+		<div class="catalog">
+			<div class="catalog-title">Information</div>
+			<div class="catalog-list">
+				<a href="http://ascii-table.com/">ASCII Table</a>
+				<a href="http://www.javascripter.net/faq/colornam.htm">Color Names</a>
+				<a href="https://www.howtogeek.com/114518/47-keyboard-shortcuts-that-work-in-all-web-browsers/">Browser Shortcuts</a>
+				<a href="http://goldendict.org/dictionaries.php">GoldenDict</a>
+				<a href="https://plato.stanford.edu/entries/lambda-calculus/">Lambda Calculus</a>
+				<a href="https://www.programiz.com/c-programming/">C Reference</a>
+				<a href="http://tizag.com/cssT/">CSS Reference</a>
+				<a href="http://archive.bio.ed.ac.uk/jdeacon/desbiome/desbiome.htm">Geography Information</a>
+				<a href="https://pokemongo.gamepress.gg/">Pokemon GO Gamepress</a>
+				<a href="http://botw-recipes.com/">BOTW Recipes</a>
+				<a href="https://www.rapidtables.com/math/symbols/Set_Symbols.html">Set Symbols</a>
+				<a href="https://www.rapidtables.com/math/symbols/Logic_Symbols.html">Logic Symbols</a>
+				<a href=""></a>
+			</div>
+		</div>
+		<div class="catalog">
+			<div class="catalog-title">*nix</div>
+			<div class="catalog-list">
+				<a href="ttps://www.cyberciti.biz/faq/">nixCraft</a>
+				<a href="https://vim.rtorr.com/">English VIM Reference</a>
+				<a href="https://ss64.com/bash/">Bash Commands</a>
+				<a href="doc/vimqrc.pdf">VIM Quick Reference.pdf</a>
+				<a href="https://www.cyberciti.biz/faq/">Linux FAQ</a>
+				<a href="http://www.linfo.org/create_shell_1.html">Shell Scripts</a>
+				<a href="https://askubuntu.com/questions/145618/how-can-i-shorten-my-command-line-bash-prompt">Shorten Bash prompt</a>
+				<a href="https://www.networkworld.com/article/3269587/linux/customizing-your-text-colors-on-the-linux-command-line.html">Custom Bash text colors</a>
+				<a href="https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work">.bashrc function and use</a>
+				<a href="https://unix.stackexchange.com/questions/148/colorizing-your-terminal-and-shell-environment"> Colorizing shell env</a>
+				<a href="https://retropie.org.uk/">RetroPie</a>
+				<a href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/ap-doslinux.html">DOS BASH Comparison</a>
+				<a href=""></a>
+			</div>
+		</div>
+		<div class="catalog">
+			<!--Source of information, news aggregators and more-->
+			<div class="catalog-title">Sources</div>
+			<div class="catalog-list">
+				<a class="emphatic" href="articles.html">Specific Articles</a>
+				<a href="https://www.theatlantic.com/">The Atlantic</a>
+				<a href="https://drudgereport.com/">Drudge Report</a>
+				<a href="https://www.theparisreview.org/">The Paris Review</a>
+				<a href="https://www.reuters.com/news/technology">Reuters Tech</a>
+				<a href="https://americacomesalive.com/">America Comes Alive</a>
+				<a href="https://slashdot.org/">SlashDot</a>
+				<a href="https://newsapi.org/">NewsAPI</a>
+				<a href=""></a>
+			</div>
+		</div>
+	</div>
+	
+</div>
+<img src="img/porygon.gif" alt="blame coffee-dan">
