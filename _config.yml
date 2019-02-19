@@ -1,1 +1,11 @@
+title: Portal
+description: >
+    A glimpse at some of the side projects of coffee-dan, some not available on this repository.
+baseurl: ""
+
+# Build settings
+exclude: ["README.md"]
+#permalink: pretty
+#gems:
+#- jekyll-sitemap
 theme: jekyll-theme-midnight
