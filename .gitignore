@@ -3,8 +3,10 @@ dan/img/schedule.png
 dan/img/bookstore_weekly.png
 dan/doc/Food\ Money\ Sp18.xlsx
 dan/l.html
+dan/doc/Fire.txt
 
 # Files that exist purely for testing
+_clutter/
 dan/testing/
 
 # Startpages not cleared for repository display
@@ -13,10 +15,6 @@ luke\ homepage-master/
 adam/
 
 # Excessively large files
-city-weather-information
-city.list.json
-city.list.json.gz
-city.txt
 
 # OS generated files (preemptive)
 .DS_Store
