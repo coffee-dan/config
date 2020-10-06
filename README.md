@@ -1,5 +1,7 @@
 # Startpage Development
 
+This repository is for the time being depreciated. It represents the first step in my startpage project so it will be revisted. However that will be after I have learned more about web development such that I feel I have something to add to this project as it exists right now.
+
 ## What are startpages?
 Startpages are locally hosted HTML documents that are used as a home or new tab page for your browser. Generally they contain a collection of links to frequently visited websites as the main element along with search bars, clocks, calendars or other imbedded items that improve productivity and/or are aesthetically pleasing.
 
